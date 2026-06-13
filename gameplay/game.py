@@ -1,5 +1,5 @@
 class Game:
-    def __init__(self, player: Goku, enemy_x: int, enemy_y: int, enemy_power: float):
+    def __init__(self, player, enemy_x: int, enemy_y: int, enemy_power: float):
         self.player = player
         self.enemy_x = enemy_x
         self.enemy_y = enemy_y
